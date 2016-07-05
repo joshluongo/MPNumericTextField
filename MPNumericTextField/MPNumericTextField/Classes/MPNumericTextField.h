@@ -1,9 +1,9 @@
 //
-//  MPFormatterUtils.h
+//  MPTextField.h
 //
 //  Version 1.1.0
 //
-//  Created by Daniele Di Bernardo on 06/04/14.
+//  Created by Daniele Di Bernardo on 05/04/14.
 //  Copyright (c) 2014 marzapower. All rights reserved.
 //
 //  The MIT License (MIT)
@@ -29,19 +29,25 @@
 //  SOFTWARE.
 //  
 
-#import <Foundation/Foundation.h>
+@import UIKit;
+#import "MPNumericTextFieldDelegate.h"
+#import "MPFormatterUtils.h"
 
-@interface MPFormatterUtils : NSObject
+typedef NS_ENUM(NSUInteger, MPNumericTextFieldType) {
+  MPNumericTextFieldDecimal = 0,
+  MPNumericTextFieldCurrency,
+  MPNumericTextFieldPercentage,
+  MPNumericTextFieldInteger
+};
 
-+ (NSNumberFormatter *)currencyFormatter:(NSLocale *)locale;
-+ (NSString *)stringFromPercentage:(NSNumber *)number locale:(NSLocale *)locale;
-+ (NSString *)shortStringFromPercentage:(NSNumber *)number locale:(NSLocale *)locale;
-+ (NSString *)stringFromCurrency:(NSNumber *)currency locale:(NSLocale *)locale;
-+ (NSString *)stringFromNumber:(NSNumber *)currency locale:(NSLocale *)locale;
-+ (NSString *)stringFromInteger:(NSNumber *)integer locale:(NSLocale *)locale;
-+ (NSNumber *)numberFromString:(NSString *)string locale:(NSLocale *)locale;
-+ (NSNumber *)currencyFromString:(NSString *)string locale:(NSLocale *)locale;
-+ (NSNumber *)percentageFromString:(NSString *)string locale:(NSLocale *)locale;
-+ (NSNumber *)integerFromString:(NSString *)string locale:(NSLocale *)locale;
+IB_DESIGNABLE
+@interface MPNumericTextField : UITextField
+
+@property (nonatomic, copy)   NSString                     *encodedValue;
+@property (nonatomic, strong) IBInspectable UIColor        *placeholderColor;
+@property (nonatomic, assign) MPNumericTextFieldType        type;
+@property (nonatomic, strong) NSLocale                     *locale;
+@property (nonatomic, assign) NSNumber                     *numericValue;
+@property (nonatomic, readonly) id<UITextFieldDelegate>     forwardDelegate;
 
 @end

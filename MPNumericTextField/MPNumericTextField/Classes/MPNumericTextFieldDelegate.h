@@ -1,9 +1,9 @@
 //
-//  MPTextField.h
+//  MPNumericTextFieldDelegate.h
 //
 //  Version 1.1.0
 //
-//  Created by Daniele Di Bernardo on 05/04/14.
+//  Created by Daniele Di Bernardo on 06/04/14.
 //  Copyright (c) 2014 marzapower. All rights reserved.
 //
 //  The MIT License (MIT)
@@ -29,25 +29,8 @@
 //  SOFTWARE.
 //  
 
-#import <UIKit/UIKit.h>
-#import "MPNumericTextFieldDelegate.h"
-#import "MPFormatterUtils.h"
+@import UIKit;
 
-typedef NS_ENUM(NSUInteger, MPNumericTextFieldType) {
-  MPNumericTextFieldDecimal = 0,
-  MPNumericTextFieldCurrency,
-  MPNumericTextFieldPercentage,
-  MPNumericTextFieldInteger
-};
-
-IB_DESIGNABLE
-@interface MPNumericTextField : UITextField
-
-@property (nonatomic, copy)   NSString                     *encodedValue;
-@property (nonatomic, strong) IBInspectable UIColor        *placeholderColor;
-@property (nonatomic, assign) MPNumericTextFieldType        type;
-@property (nonatomic, strong) NSLocale                     *locale;
-@property (nonatomic, assign) NSNumber                     *numericValue;
-@property (nonatomic, readonly) id<UITextFieldDelegate>     forwardDelegate;
+@interface MPNumericTextFieldDelegate : NSObject<UITextFieldDelegate>
 
 @end

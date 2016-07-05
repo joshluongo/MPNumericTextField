@@ -1,5 +1,5 @@
 //
-//  MPNumericTextFieldDelegate.h
+//  MPFormatterUtils.h
 //
 //  Version 1.1.0
 //
@@ -29,6 +29,19 @@
 //  SOFTWARE.
 //  
 
-@interface MPNumericTextFieldDelegate : NSObject<UITextFieldDelegate>
+@import Foundation;
+
+@interface MPFormatterUtils : NSObject
+
++ (NSNumberFormatter *)currencyFormatter:(NSLocale *)locale;
++ (NSString *)stringFromPercentage:(NSNumber *)number locale:(NSLocale *)locale;
++ (NSString *)shortStringFromPercentage:(NSNumber *)number locale:(NSLocale *)locale;
++ (NSString *)stringFromCurrency:(NSNumber *)currency locale:(NSLocale *)locale;
++ (NSString *)stringFromNumber:(NSNumber *)currency locale:(NSLocale *)locale;
++ (NSString *)stringFromInteger:(NSNumber *)integer locale:(NSLocale *)locale;
++ (NSNumber *)numberFromString:(NSString *)string locale:(NSLocale *)locale;
++ (NSNumber *)currencyFromString:(NSString *)string locale:(NSLocale *)locale;
++ (NSNumber *)percentageFromString:(NSString *)string locale:(NSLocale *)locale;
++ (NSNumber *)integerFromString:(NSString *)string locale:(NSLocale *)locale;
 
 @end
