@@ -16,6 +16,6 @@ FOUNDATION_EXPORT const unsigned char MPNumericFieldVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <MPNumericField/PublicHeader.h>
 
-#import <MPNumericTextField/MPFormatterUtils.h>
-#import <MPNumericTextField/MPNumericTextField.h>
-#import <MPNumericTextField/MPNumericTextFieldDelegate.h>
+#import <MPNumericField/MPFormatterUtils.h>
+#import <MPNumericField/MPNumericTextField.h>
+#import <MPNumericField/MPNumericTextFieldDelegate.h>
