@@ -7,29 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0387BD9E1D2B45C900769A0B /* MPNumericTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 0387BD9D1D2B45C900769A0B /* MPNumericTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0387BDAC1D2B460B00769A0B /* MPFormatterUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 0387BDA61D2B460B00769A0B /* MPFormatterUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0387BDAD1D2B460B00769A0B /* MPFormatterUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0387BDA71D2B460B00769A0B /* MPFormatterUtils.m */; };
-		0387BDAE1D2B460B00769A0B /* MPNumericTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 0387BDA81D2B460B00769A0B /* MPNumericTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0387BDAF1D2B460B00769A0B /* MPNumericTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 0387BDA91D2B460B00769A0B /* MPNumericTextField.m */; };
-		0387BDB01D2B460B00769A0B /* MPNumericTextFieldDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0387BDAA1D2B460B00769A0B /* MPNumericTextFieldDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0387BDB11D2B460B00769A0B /* MPNumericTextFieldDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0387BDAB1D2B460B00769A0B /* MPNumericTextFieldDelegate.m */; };
+		0387BDC61D2B4C0B00769A0B /* MPNumericField.h in Headers */ = {isa = PBXBuildFile; fileRef = 0387BDC51D2B4C0B00769A0B /* MPNumericField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0387BDD41D2B4C1E00769A0B /* MPFormatterUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 0387BDCE1D2B4C1E00769A0B /* MPFormatterUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0387BDD51D2B4C1E00769A0B /* MPFormatterUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0387BDCF1D2B4C1E00769A0B /* MPFormatterUtils.m */; };
+		0387BDD61D2B4C1E00769A0B /* MPNumericTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 0387BDD01D2B4C1E00769A0B /* MPNumericTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0387BDD71D2B4C1E00769A0B /* MPNumericTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 0387BDD11D2B4C1E00769A0B /* MPNumericTextField.m */; };
+		0387BDD81D2B4C1E00769A0B /* MPNumericTextFieldDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0387BDD21D2B4C1E00769A0B /* MPNumericTextFieldDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0387BDD91D2B4C1E00769A0B /* MPNumericTextFieldDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0387BDD31D2B4C1E00769A0B /* MPNumericTextFieldDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0387BD9A1D2B45C900769A0B /* MPNumericTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MPNumericTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0387BD9D1D2B45C900769A0B /* MPNumericTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPNumericTextField.h; sourceTree = "<group>"; };
-		0387BD9F1D2B45C900769A0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0387BDA61D2B460B00769A0B /* MPFormatterUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPFormatterUtils.h; sourceTree = "<group>"; };
-		0387BDA71D2B460B00769A0B /* MPFormatterUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPFormatterUtils.m; sourceTree = "<group>"; };
-		0387BDA81D2B460B00769A0B /* MPNumericTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPNumericTextField.h; sourceTree = "<group>"; };
-		0387BDA91D2B460B00769A0B /* MPNumericTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPNumericTextField.m; sourceTree = "<group>"; };
-		0387BDAA1D2B460B00769A0B /* MPNumericTextFieldDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPNumericTextFieldDelegate.h; sourceTree = "<group>"; };
-		0387BDAB1D2B460B00769A0B /* MPNumericTextFieldDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPNumericTextFieldDelegate.m; sourceTree = "<group>"; };
+		0387BDC21D2B4C0B00769A0B /* MPNumericField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MPNumericField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0387BDC51D2B4C0B00769A0B /* MPNumericField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPNumericField.h; sourceTree = "<group>"; };
+		0387BDC71D2B4C0B00769A0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0387BDCE1D2B4C1E00769A0B /* MPFormatterUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPFormatterUtils.h; sourceTree = "<group>"; };
+		0387BDCF1D2B4C1E00769A0B /* MPFormatterUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPFormatterUtils.m; sourceTree = "<group>"; };
+		0387BDD01D2B4C1E00769A0B /* MPNumericTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPNumericTextField.h; sourceTree = "<group>"; };
+		0387BDD11D2B4C1E00769A0B /* MPNumericTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPNumericTextField.m; sourceTree = "<group>"; };
+		0387BDD21D2B4C1E00769A0B /* MPNumericTextFieldDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPNumericTextFieldDelegate.h; sourceTree = "<group>"; };
+		0387BDD31D2B4C1E00769A0B /* MPNumericTextFieldDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPNumericTextFieldDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0387BD961D2B45C900769A0B /* Frameworks */ = {
+		0387BDBE1D2B4C0B00769A0B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,41 +39,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0387BD901D2B45C800769A0B = {
+		0387BDB81D2B4C0B00769A0B = {
 			isa = PBXGroup;
 			children = (
-				0387BD9C1D2B45C900769A0B /* MPNumericTextField */,
-				0387BD9B1D2B45C900769A0B /* Products */,
+				0387BDC41D2B4C0B00769A0B /* MPNumericField */,
+				0387BDC31D2B4C0B00769A0B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0387BD9B1D2B45C900769A0B /* Products */ = {
+		0387BDC31D2B4C0B00769A0B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0387BD9A1D2B45C900769A0B /* MPNumericTextField.framework */,
+				0387BDC21D2B4C0B00769A0B /* MPNumericField.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0387BD9C1D2B45C900769A0B /* MPNumericTextField */ = {
+		0387BDC41D2B4C0B00769A0B /* MPNumericField */ = {
 			isa = PBXGroup;
 			children = (
-				0387BDA51D2B45D200769A0B /* Classes */,
-				0387BD9D1D2B45C900769A0B /* MPNumericTextField.h */,
-				0387BD9F1D2B45C900769A0B /* Info.plist */,
+				0387BDCD1D2B4C1E00769A0B /* Classes */,
+				0387BDC51D2B4C0B00769A0B /* MPNumericField.h */,
+				0387BDC71D2B4C0B00769A0B /* Info.plist */,
 			);
-			path = MPNumericTextField;
+			path = MPNumericField;
 			sourceTree = "<group>";
 		};
-		0387BDA51D2B45D200769A0B /* Classes */ = {
+		0387BDCD1D2B4C1E00769A0B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				0387BDA61D2B460B00769A0B /* MPFormatterUtils.h */,
-				0387BDA71D2B460B00769A0B /* MPFormatterUtils.m */,
-				0387BDA81D2B460B00769A0B /* MPNumericTextField.h */,
-				0387BDA91D2B460B00769A0B /* MPNumericTextField.m */,
-				0387BDAA1D2B460B00769A0B /* MPNumericTextFieldDelegate.h */,
-				0387BDAB1D2B460B00769A0B /* MPNumericTextFieldDelegate.m */,
+				0387BDCE1D2B4C1E00769A0B /* MPFormatterUtils.h */,
+				0387BDCF1D2B4C1E00769A0B /* MPFormatterUtils.m */,
+				0387BDD01D2B4C1E00769A0B /* MPNumericTextField.h */,
+				0387BDD11D2B4C1E00769A0B /* MPNumericTextField.m */,
+				0387BDD21D2B4C1E00769A0B /* MPNumericTextFieldDelegate.h */,
+				0387BDD31D2B4C1E00769A0B /* MPNumericTextFieldDelegate.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -81,70 +81,71 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0387BD971D2B45C900769A0B /* Headers */ = {
+		0387BDBF1D2B4C0B00769A0B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0387BDAC1D2B460B00769A0B /* MPFormatterUtils.h in Headers */,
-				0387BDAE1D2B460B00769A0B /* MPNumericTextField.h in Headers */,
-				0387BDB01D2B460B00769A0B /* MPNumericTextFieldDelegate.h in Headers */,
-				0387BD9E1D2B45C900769A0B /* MPNumericTextField.h in Headers */,
+				0387BDD41D2B4C1E00769A0B /* MPFormatterUtils.h in Headers */,
+				0387BDD61D2B4C1E00769A0B /* MPNumericTextField.h in Headers */,
+				0387BDD81D2B4C1E00769A0B /* MPNumericTextFieldDelegate.h in Headers */,
+				0387BDC61D2B4C0B00769A0B /* MPNumericField.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0387BD991D2B45C900769A0B /* MPNumericTextField */ = {
+		0387BDC11D2B4C0B00769A0B /* MPNumericField */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0387BDA21D2B45C900769A0B /* Build configuration list for PBXNativeTarget "MPNumericTextField" */;
+			buildConfigurationList = 0387BDCA1D2B4C0B00769A0B /* Build configuration list for PBXNativeTarget "MPNumericField" */;
 			buildPhases = (
-				0387BD951D2B45C900769A0B /* Sources */,
-				0387BD961D2B45C900769A0B /* Frameworks */,
-				0387BD971D2B45C900769A0B /* Headers */,
-				0387BD981D2B45C900769A0B /* Resources */,
+				0387BDBD1D2B4C0B00769A0B /* Sources */,
+				0387BDBE1D2B4C0B00769A0B /* Frameworks */,
+				0387BDBF1D2B4C0B00769A0B /* Headers */,
+				0387BDC01D2B4C0B00769A0B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MPNumericTextField;
-			productName = MPNumericTextField;
-			productReference = 0387BD9A1D2B45C900769A0B /* MPNumericTextField.framework */;
+			name = MPNumericField;
+			productName = MPNumericField;
+			productReference = 0387BDC21D2B4C0B00769A0B /* MPNumericField.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0387BD911D2B45C800769A0B /* Project object */ = {
+		0387BDB91D2B4C0B00769A0B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Joshua Luongo";
 				TargetAttributes = {
-					0387BD991D2B45C900769A0B = {
+					0387BDC11D2B4C0B00769A0B = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 0387BD941D2B45C800769A0B /* Build configuration list for PBXProject "MPNumericTextField" */;
+			buildConfigurationList = 0387BDBC1D2B4C0B00769A0B /* Build configuration list for PBXProject "MPNumericField" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 0387BD901D2B45C800769A0B;
-			productRefGroup = 0387BD9B1D2B45C900769A0B /* Products */;
+			mainGroup = 0387BDB81D2B4C0B00769A0B;
+			productRefGroup = 0387BDC31D2B4C0B00769A0B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0387BD991D2B45C900769A0B /* MPNumericTextField */,
+				0387BDC11D2B4C0B00769A0B /* MPNumericField */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0387BD981D2B45C900769A0B /* Resources */ = {
+		0387BDC01D2B4C0B00769A0B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -154,20 +155,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0387BD951D2B45C900769A0B /* Sources */ = {
+		0387BDBD1D2B4C0B00769A0B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0387BDAF1D2B460B00769A0B /* MPNumericTextField.m in Sources */,
-				0387BDAD1D2B460B00769A0B /* MPFormatterUtils.m in Sources */,
-				0387BDB11D2B460B00769A0B /* MPNumericTextFieldDelegate.m in Sources */,
+				0387BDD71D2B4C1E00769A0B /* MPNumericTextField.m in Sources */,
+				0387BDD51D2B4C1E00769A0B /* MPFormatterUtils.m in Sources */,
+				0387BDD91D2B4C1E00769A0B /* MPNumericTextFieldDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		0387BDA01D2B45C900769A0B /* Debug */ = {
+		0387BDC81D2B4C0B00769A0B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -215,7 +216,7 @@
 			};
 			name = Debug;
 		};
-		0387BDA11D2B45C900769A0B /* Release */ = {
+		0387BDC91D2B4C0B00769A0B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -257,35 +258,35 @@
 			};
 			name = Release;
 		};
-		0387BDA31D2B45C900769A0B /* Debug */ = {
+		0387BDCB1D2B4C0B00769A0B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = MPNumericTextField/Info.plist;
+				INFOPLIST_FILE = MPNumericField/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.marzapower.MPNumericTextField;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marzapower.MPNumericField;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		0387BDA41D2B45C900769A0B /* Release */ = {
+		0387BDCC1D2B4C0B00769A0B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = MPNumericTextField/Info.plist;
+				INFOPLIST_FILE = MPNumericField/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.marzapower.MPNumericTextField;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marzapower.MPNumericField;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -294,24 +295,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0387BD941D2B45C800769A0B /* Build configuration list for PBXProject "MPNumericTextField" */ = {
+		0387BDBC1D2B4C0B00769A0B /* Build configuration list for PBXProject "MPNumericField" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0387BDA01D2B45C900769A0B /* Debug */,
-				0387BDA11D2B45C900769A0B /* Release */,
+				0387BDC81D2B4C0B00769A0B /* Debug */,
+				0387BDC91D2B4C0B00769A0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0387BDA21D2B45C900769A0B /* Build configuration list for PBXNativeTarget "MPNumericTextField" */ = {
+		0387BDCA1D2B4C0B00769A0B /* Build configuration list for PBXNativeTarget "MPNumericField" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0387BDA31D2B45C900769A0B /* Debug */,
-				0387BDA41D2B45C900769A0B /* Release */,
+				0387BDCB1D2B4C0B00769A0B /* Debug */,
+				0387BDCC1D2B4C0B00769A0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0387BD911D2B45C800769A0B /* Project object */;
+	rootObject = 0387BDB91D2B4C0B00769A0B /* Project object */;
 }
